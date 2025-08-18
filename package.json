@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "astro": "^5.13.2",
+    "contentful": "^11.7.15",
     "destyle.css": "^4.0.1",
     "gsap": "^3.13.0"
   },

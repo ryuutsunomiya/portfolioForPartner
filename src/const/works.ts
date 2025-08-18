@@ -1,6 +1,6 @@
 export const works: {
   title: string;
-  thumbnail: null | { src: string; type: "iframe" | "mp4"; width: number; height: number };
+  thumbnail: { src: string; type: "iframe" | "mp4"; width: number; height: number };
   url?: string;
   period: string;
   scope: ("Front-end" | "Back-end" | "Design")[];
@@ -10,7 +10,7 @@ export const works: {
 }[] = [
   {
     title: "塑tructure",
-    thumbnail: { src: "/sotructure.mp4", type: "mp4", width: 400, height: 500 },
+    thumbnail: { src: "3x05YSbMNmeT9C8ndALipD", type: "mp4", width: 400, height: 500 },
     url: "https://www.sotructure.com",
     period: "1.5ヶ月",
     scope: ["Front-end", "Design"],
@@ -21,7 +21,7 @@ export const works: {
   },
   {
     title: "MIDW",
-    thumbnail: { src: "/midw.mp4", type: "mp4", width: 1600, height: 1000 },
+    thumbnail: { src: "7tUSY8cIkfdhILo39nHNRj", type: "mp4", width: 1600, height: 1000 },
     url: "https://midw.jp",
     period: "1.5ヶ月",
     scope: ["Front-end", "Back-end"],
@@ -32,7 +32,7 @@ export const works: {
   },
   {
     title: "オリエンタルモーター 採用サイト",
-    thumbnail: { src: "/orientalmoter.mp4", type: "mp4", width: 1600, height: 1000 },
+    thumbnail: { src: "3LCUKvswrJTlF3TTDnldUP", type: "mp4", width: 1600, height: 1000 },
     url: "https://www.orientalmotor.co.jp/ja/recruit",
     period: "1.5ヶ月",
     scope: ["Front-end"],
@@ -46,7 +46,7 @@ export const works: {
   },
   {
     title: "SXD Lab",
-    thumbnail: { src: "/sxd.mp4", type: "mp4", width: 1600, height: 1000 },
+    thumbnail: { src: "6seUkTGQBC2ErdRM7YwQap", type: "mp4", width: 1600, height: 1000 },
     url: "https://sxdl.jp",
     period: "1ヶ月",
     scope: ["Front-end"],
@@ -57,7 +57,7 @@ export const works: {
   },
   {
     title: "Instant Anima",
-    thumbnail: { src: "/instantanima.mp4", type: "mp4", width: 1600, height: 1000 },
+    thumbnail: { src: "7n6cK5SdvNu9Q6hEZmWxpe", type: "mp4", width: 1600, height: 1000 },
     url: "https://www.instantanima.com/",
     period: "2ヶ月",
     scope: ["Front-end", "Back-end", "Design"],
@@ -68,7 +68,7 @@ export const works: {
   },
   {
     title: "inbetween",
-    thumbnail: { src: "/inbetween.mp4", type: "mp4", width: 1600, height: 1000 },
+    thumbnail: { src: "39GvrhQZDA1yF3BkuuWCAp", type: "mp4", width: 1600, height: 1000 },
     url: "https://www.inbetween.jp",
     period: "1.5ヶ月",
     scope: ["Front-end"],
@@ -77,7 +77,7 @@ export const works: {
   },
   {
     title: "RYU UTSUNOMIYA WORKS 2015-2019",
-    thumbnail: { src: "/ryuUtsunomiya.mp4", type: "mp4", width: 1600, height: 1000 },
+    thumbnail: { src: "40xHbl27OUXwcsegQ0GfuX", type: "mp4", width: 1600, height: 1000 },
     url: "https://www.ryuutsunomiya.com",
     period: "1ヶ月",
     scope: ["Front-end", "Design"],
@@ -92,7 +92,7 @@ export const works: {
   },
   {
     title: "SNDO",
-    thumbnail: { src: "/sndo.mp4", type: "mp4", width: 1600, height: 1000 },
+    thumbnail: { src: "2kGLjx5Oceco2iqhVqT7AH", type: "mp4", width: 1600, height: 1000 },
     url: "https://sndo.jp",
     period: "1ヶ月",
     scope: ["Front-end", "Back-end"],
@@ -103,7 +103,7 @@ export const works: {
   },
   {
     title: "ヨッキューくん ギャラリー",
-    thumbnail: { src: "/yokkyukunGallery.MP4", type: "mp4", width: 1600, height: 1000 },
+    thumbnail: { src: "3orrPQvyG5cdRe7G7XUVMQ", type: "mp4", width: 1600, height: 1000 },
     url: "https://yokkyukungallery.com",
     period: "2ヶ月",
     scope: ["Front-end", "Back-end"],
@@ -120,7 +120,7 @@ export const works: {
   },
   {
     title: "小笠原海洋センターさんと考えるウミガメの未来 │ フェリシモ",
-    thumbnail: { src: "/umigame.mp4", type: "mp4", width: 1586, height: 1000 },
+    thumbnail: { src: "4KwlYqIkRMyyhOTrkguiyb", type: "mp4", width: 1586, height: 1000 },
     url: "https://www.felissimo.co.jp/gopeace/ogasawara/",
     period: "2週間",
     scope: ["Front-end"],
@@ -138,7 +138,7 @@ export const works: {
   },
   {
     title: "VOOKMARK",
-    thumbnail: { src: "/vookmark.mp4", type: "mp4", width: 1586, height: 1000 },
+    thumbnail: { src: "4fioOMjRr5wvFYLrQeLS9F", type: "mp4", width: 1586, height: 1000 },
     url: "https://vookmark.io/",
     period: "2週間",
     scope: ["Front-end"],
@@ -147,7 +147,7 @@ export const works: {
   },
   {
     title: "amifa purpose",
-    thumbnail: { src: "/amifa.mp4", type: "mp4", width: 1600, height: 1000 },
+    thumbnail: { src: "7BWXtfpY0zMs7vPMT55f8r", type: "mp4", width: 1600, height: 1000 },
     url: "https://www.amifa.co.jp/purpose",
     period: "1ヶ月",
     scope: ["Front-end"],
@@ -156,7 +156,7 @@ export const works: {
   },
   {
     title: "MATTER",
-    thumbnail: { src: "/matter.mp4", type: "mp4", width: 1600, height: 1000 },
+    thumbnail: { src: "2Hyd7DJM1SAPJhnvBpeicU", type: "mp4", width: 1600, height: 1000 },
     url: "https://mattertokyo.jp/",
     period: "2週間（私の担当パートのみ）",
     scope: ["Front-end"],
@@ -171,7 +171,7 @@ export const works: {
   },
   {
     title: "SMARG Wealth",
-    thumbnail: { src: "/smarg.mp4", type: "mp4", width: 1600, height: 1000 },
+    thumbnail: { src: "N9vywa88U0VcIWUJdZkop", type: "mp4", width: 1600, height: 1000 },
     url: "https://wealth.smarg.jp/",
     period: "2ヶ月",
     scope: ["Front-end"],
@@ -180,7 +180,7 @@ export const works: {
   },
   {
     title: "ヨッキューくん 公式サイト",
-    thumbnail: { src: "/yokkyukun.MP4", type: "mp4", width: 1600, height: 1000 },
+    thumbnail: { src: "HkmKgW2E8osvOJeVLIgId", type: "mp4", width: 1600, height: 1000 },
     url: "https://yokkyukun.com",
     period: "1.5ヶ月",
     scope: ["Front-end", "Back-end"],
@@ -198,7 +198,7 @@ export const works: {
   },
   {
     title: "npu",
-    thumbnail: { src: "/npu.mp4", type: "mp4", width: 1600, height: 998 },
+    thumbnail: { src: "4LvnJkheRQmknwYHqH0pzN", type: "mp4", width: 1600, height: 998 },
     url: "https://neplusultra.jp",
     period: "1.5ヶ月",
     scope: ["Front-end", "Back-end"],
