@@ -1,22 +1,68 @@
+---
+import 'destyle.css';
+import '../styles/global.sass'
+import '../styles/components.sass'
+import '../styles/pages.sass'
+
+
+const baseTitle = 'Ryu Utsunomiya パートナー様向けポートフォリオ';
+const description = '';
+const icon = '/favicon.ico'
+const url = '';
+const ogp = "/ogp.png";
+
+interface Props {
+    title?: string
+}
+
+const { title } = Astro.props;
+
+const pageTitle = title ? title : baseTitle;
+---
+
 <!doctype html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+		<title>{pageTitle}</title>
+		<meta name="description" content={description} />
+
+		<meta property="og:title"  content={pageTitle}/>
+		<meta property="og:type"  content="website"/>
+		<meta property="og:image"  content={ogp}/>
+		<meta property="og:url"  content={url}/>
+		<meta property="og:description"  content={description}/>
+		<meta property="og:description"  content={description}/>
+		<meta property="og:locale"  content="en_US"/>
+		<meta property="og:site_name"  content={pageTitle}/>
+		<meta property="og:image:url"  content={ogp}/>
+		<meta property="og:image:width"  content="1200"/>
+		<meta property="og:image:height"  content="630"/>
+		<meta property="og:image:alt"  content={pageTitle}/>
+
+		<meta name="twitter:image"  content={`${ogp}?4362984375`} />
+		<meta name="twitter:card"  content='summary_large_image'/>
+
+		<link rel="icon" type="image/svg+xml" href={icon} />
+
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap" rel="stylesheet">
+
+		<meta name="robots" content="noindex">
 	</head>
+
 	<body>
-		<slot />
+		<main class="main" data-barba="wrapper">
+			<slot />
+		</main>
 	</body>
 </html>
 
-<style>
-	html,
-	body {
-		margin: 0;
-		width: 100%;
-		height: 100%;
-	}
-</style>
+<script>
+window.addEventListener('DOMContentLoaded', () => {})
+</script>

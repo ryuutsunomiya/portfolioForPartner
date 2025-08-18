@@ -1,11 +1,86 @@
 ---
-import Welcome from '../components/Welcome.astro';
+import { works } from 'const/works';
 import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
 <Layout>
-	<Welcome />
+	<article class="top">
+		<h1>Ryu Utsunomiya パートナー様向けポートフォリオ</h1>
+		<h2>Profile</h2>
+		<div class="--jp --mb1">
+			<p class="--noMb">
+				フリーランスのフロントエンドエンジニアです。
+			</p>
+			<dl>
+				<dt>X:</dt>
+				<dt><a href="https://x.com/ryuU213" target='_blank' rel='noopener noreferrer'>@ryuU213</a></dt>
+			</dl>
+		</div>
+		<h2>Tech Stack</h2>
+		<p>WebGL(three.js) / Astro.js / Nuxt.js / Next.js / php(WordPress) / Shopify Storefront API Client  / HeadelessCMS(microCMS, Newt, Contentful, etc.) / Cloudflare / Vercel / Netlify / Firebase / JavaScript / TypeScript / HTML / CSS(SCSS, SASS) , etc.</p>
+		<h2>Client</h2>
+		<p>reynato.tokyo / FunTech inc. / MEFILAS inc. / NOLL+= / monopo Tokyo inc. / monopo NYC inc. / REFLECTA, Inc. / Harch Inc. / 3RD GEAR, Inc. , etc.</p>
+		<h2>Media</h2>
+		<p>WebGL 総本山 / S5-Style / SANKOU! / Good Web Design / RWD JP / BRIK GALLERY / 1GUU / Design bookmark / Brilliant Design Collect / LP ARCHIVE / MOBILE FIRST DESIGN GALLERY / cocotano! , etc.</p>
+		<h2>Works</h2>
+		<ul class="works">
+			{
+				works.map((item) => {
+					return (
+						<li class="works_card">
+							<div class="works_img">
+								{item.thumbnail && (
+									item.thumbnail.type === "iframe" ? (
+										<iframe src={item.thumbnail.src} allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" style={`aspect-ratio: ${item.thumbnail.width} / ${item.thumbnail.height};`} />
+									) : <video src={item.thumbnail.src} autoplay loop muted playsinline  style={`aspect-ratio: ${item.thumbnail.width} / ${item.thumbnail.height};`}/>
+								)}
+							</div>
+							<h3>{item.title}</h3>
+							<dl>
+								{item.url && (
+									<dt>URL</dt>
+									<dt><a target='_blank' rel='noopener noreferrer' href={item.url}>{item.url}</a></dt>
+								)}
+								<dt>スコープ</dt>
+								<dt>
+									{item.scope.map((text, index) => {
+										return(
+											<>{text}<>{index < item.scope.length - 1 && <> / </>}</></>
+										)
+									})}
+								</dt>
+								<dt>技術スタック</dt>
+								<dt>
+									{item.stack.map((text, index) => {
+										return(
+											<>{text}<>{index < item.stack.length - 1 && <> / </>}</></>
+										)
+									})}
+								</dt>
+								<dt>期間</dt>
+								<dt>{item.period}</dt>
+								{item.points && (
+									<dt>実装のポイント</dt>
+									<dt class="--jp" set:html={item.points}></dt>
+								)}
+								{item.media && (
+									<dt>メディア掲載</dt>
+									<dt>
+										{
+											item.media.map((m, index) => {
+												const arr = item.media as []
+												return(
+													<a href={m.href} target='_blank' rel='noopener noreferrer'>{m.title}<>{index < arr.length - 1 && <br />}</></a>
+												)
+											})
+										}
+									</dt>
+								)}
+							</dl>
+						</li>
+					)
+				})
+			}
+		</ul>
+	</article>
 </Layout>
