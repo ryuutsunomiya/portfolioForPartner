@@ -1,0 +1,76 @@
+@use './var' as v
+@use './func' as f
+
+$default-font: v.$default-font
+$white: v.$white
+$black: v.$black
+
+html
+    font-family: "Zen Kaku Gothic New", sans-serif
+    font-weight: 400
+    font-style: normal
+    letter-spacing: 0.02em
+    color: $black
+    min-height: 100svh
+    font-size: 14px
+    line-height: 1.6
+    +f.bg(#f9f9f9)
+
+body
+    text-size-adjust: none
+    text-align: left
+    touch-action: manipulation
+    -webkit-font-smoothing: antialiased
+    -moz-osx-font-smoothing: grayscale
+
+img,
+iframe
+    display: block
+    object-fit: cover
+    pointer-events: none
+    touch-callout: none
+    user-select: none
+    user-drag: none
+    +f.size(100%, 100%)
+
+img,
+svg,
+button
+    -webkit-touch-callout: none
+    user-select: none
+
+button:focus
+    outline: 0
+
+input,
+textarea
+    -webkit-appearance: none
+    border-radius: 0
+    outline: none
+
+input:focus
+  outline: 0
+
+textarea:focus
+  outline: 0
+
+.js--hover
+    cursor: pointer !important
+
+.js--none
+    display: none !important
+
+.js--hidden
+    visibility: hidden !important
+    pointer-events: none !important
+
+.js--noClick
+    pointer-events: none !important
+
+br.--pc
+    +f.sp
+        display: none
+br.--sp
+    display: none
+    +f.sp
+        display: inline
