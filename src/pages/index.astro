@@ -1,6 +1,28 @@
 ---
+import {  contentfulClient, type worksType, } from "libs/contentful";
 import { works } from 'const/works';
 import Layout from '../layouts/Layout.astro';
+
+const entries = await contentfulClient.getEntries<worksType>({
+    content_type: "works",
+    include: 10,
+});
+
+// entries.items.forEach((item) => {
+// 	console.log(item.sys.id, item.fields.title)
+// })
+
+const margeWorks = works.map((item) => {
+	if (item.thumbnail.type === "iframe") return item
+	else {
+		entries.items.forEach((e) => {
+			/* @ts-ignore */
+			if (e.sys.id === item.thumbnail.src) item.thumbnail.src = e.fields.movie.fields.file.url
+		})
+
+		return item
+	}
+})
 ---
 
 <Layout>
@@ -25,7 +47,7 @@ import Layout from '../layouts/Layout.astro';
 		<h2>Works</h2>
 		<ul class="works">
 			{
-				works.map((item) => {
+				margeWorks.map((item) => {
 					return (
 						<li class="works_card">
 							<div class="works_img">
