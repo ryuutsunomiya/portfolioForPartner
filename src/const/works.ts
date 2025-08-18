@@ -156,7 +156,7 @@ export const works: {
   },
   {
     title: "MATTER",
-    thumbnail: { src: "/matter.mov", type: "mp4", width: 1600, height: 1000 },
+    thumbnail: { src: "/matter.mp4", type: "mp4", width: 1600, height: 1000 },
     url: "https://mattertokyo.jp/",
     period: "2週間（私の担当パートのみ）",
     scope: ["Front-end"],
@@ -171,7 +171,7 @@ export const works: {
   },
   {
     title: "SMARG Wealth",
-    thumbnail: { src: "/smarg.mov", type: "mp4", width: 1600, height: 1000 },
+    thumbnail: { src: "/smarg.mp4", type: "mp4", width: 1600, height: 1000 },
     url: "https://wealth.smarg.jp/",
     period: "2ヶ月",
     scope: ["Front-end"],
