@@ -198,7 +198,7 @@ export const works: {
   },
   {
     title: "npu",
-    thumbnail: { src: "/npu.MOV", type: "mp4", width: 1600, height: 998 },
+    thumbnail: { src: "/npu.mp4", type: "mp4", width: 1600, height: 998 },
     url: "https://neplusultra.jp",
     period: "1.5ヶ月",
     scope: ["Front-end", "Back-end"],
