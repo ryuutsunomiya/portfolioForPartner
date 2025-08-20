@@ -38,7 +38,7 @@ export const works: {
     scope: ["Front-end", "Back-end"],
     stack: ["WebGL", "Astro.js", "contentful", "Cloudflare pages"],
     points: `
-    メニュー画面などで表示しているグラデーションはユーザーがサイトを訪れた時間により変わります。
+    メニュー画面などで表示しているグラデーションはユーザーがサイトを訪れた時間により変わります（空の色を表現しています）。
     `,
   },
   {
