@@ -31,6 +31,17 @@ export const works: {
     `,
   },
   {
+    title: "paradise",
+    thumbnail: { src: "5pCXswezkcvay7F1QzYYEc", type: "mp4", width: 1600, height: 1000 },
+    url: "https://paradisecreative.co.jp/",
+    period: "1.5ヶ月",
+    scope: ["Front-end", "Back-end"],
+    stack: ["WebGL", "Astro.js", "contentful", "Cloudflare pages"],
+    points: `
+    メニュー画面などで使用しているグラデーションはユーザーがサイトを訪れた時間により変わります。
+    `,
+  },
+  {
     title: "オリエンタルモーター 採用サイト",
     thumbnail: { src: "3LCUKvswrJTlF3TTDnldUP", type: "mp4", width: 1600, height: 1000 },
     url: "https://www.orientalmotor.co.jp/ja/recruit",
