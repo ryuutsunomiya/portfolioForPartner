@@ -242,5 +242,6 @@ export const works: {
     scope: ["Front-end"],
     stack: ["HTML(pug)", "SASS", "JavaScript"],
     points: null,
+    media: [{ title: "SANKOU!", href: "https://sankoudesign.com/web/drtraining/" }],
   },
 ];
