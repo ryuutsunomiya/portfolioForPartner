@@ -23,6 +23,8 @@ const margeWorks = works.map((item) => {
 		return item
 	}
 })
+
+const clients = ["reynato.tokyo","FunTech inc.","MEFILAS inc.","NOLL+=","monopo Tokyo inc.","monopo NYC inc.","REFLECTA, Inc.","Harch Inc.","3RD GEAR, Inc."].sort();
 ---
 
 <Layout>
@@ -41,7 +43,15 @@ const margeWorks = works.map((item) => {
 		<h2>Tech Stack</h2>
 		<p>WebGL(three.js) / GLSL / Astro.js / Nuxt.js / Next.js / php(WordPress) / Shopify Storefront API Client  / HeadelessCMS(microCMS, Newt, Contentful, etc.) / Cloudflare / Vercel / Netlify / Firebase / JavaScript / TypeScript / HTML / CSS(SCSS, SASS) , etc.</p>
 		<h2>Client</h2>
-		<p>reynato.tokyo / FunTech inc. / MEFILAS inc. / NOLL+= / monopo Tokyo inc. / monopo NYC inc. / REFLECTA, Inc. / Harch Inc. / 3RD GEAR, Inc. , etc.</p>
+		<p>
+			{
+				clients.map((c, index) => {
+					return (
+						<>{c}{index === clients.length - 1 ? <> , etc.</> : <> / </>}</>
+					)
+				})
+			}
+		</p>
 		<h2>Media</h2>
 		<p>WebGL 総本山 / S5-Style / SANKOU! / Good Web Design / RWD JP / BRIK GALLERY / 1GUU / Design bookmark / Brilliant Design Collect / LP ARCHIVE / MOBILE FIRST DESIGN GALLERY / cocotano! , etc.</p>
 		<h2>Works</h2>
