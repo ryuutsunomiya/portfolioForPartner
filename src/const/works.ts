@@ -3,7 +3,7 @@ export const works: {
   thumbnail: { src: string; type: "iframe" | "mp4"; width: number; height: number };
   url?: string;
   period: string;
-  scope: ("Front-end" | "Back-end" | "Design")[];
+  scope: ("Front-end" | "Back-end (CMS)" | "Design")[];
   stack: string[];
   points: null | string;
   media?: { title: string; href: string }[];
@@ -24,35 +24,10 @@ export const works: {
     thumbnail: { src: "7tUSY8cIkfdhILo39nHNRj", type: "mp4", width: 1600, height: 1000 },
     url: "https://midw.jp",
     period: "1.5ヶ月",
-    scope: ["Front-end", "Back-end"],
+    scope: ["Front-end", "Back-end (CMS)"],
     stack: ["Astro.js", "Newt", "Cloudflare pages"],
     points: `
     事務所名の基となる4つの表現形態（Model, Image, Drawing, Writing）それぞれに対して独立した構造のページを実装しています。加えてそのコンセプトが際立つよう、アニメーションなどの演出は最低限に抑えています。
-    `,
-  },
-  {
-    title: "paradise",
-    thumbnail: { src: "5pCXswezkcvay7F1QzYYEc", type: "mp4", width: 1600, height: 1000 },
-    url: "https://paradisecreative.co.jp/",
-    period: "1.5ヶ月",
-    scope: ["Front-end", "Back-end"],
-    stack: ["WebGL", "Astro.js", "contentful", "Cloudflare pages"],
-    points: `
-    メニュー画面などで表示しているグラデーションはユーザーがサイトを訪れた時間により変わります（空の色を表現しています）。
-    `,
-  },
-  {
-    title: "オリエンタルモーター 採用サイト",
-    thumbnail: { src: "3LCUKvswrJTlF3TTDnldUP", type: "mp4", width: 1600, height: 1000 },
-    url: "https://www.orientalmotor.co.jp/ja/recruit",
-    period: "1.5ヶ月",
-    scope: ["Front-end"],
-    stack: ["Astro.js"],
-    // points: `
-    // 堅実な印象のある企業様の採用サイトであるため、各種演出については印象的ではありつつも仰々しさを感じさせないバランスを意識して設計しました。ローディングを除き、ユーザーが演出を「待つ」時間が発生しないようにしています。
-    // `,
-    points: `
-    求職者が繰り返しサイトを訪れる状況を想定し、各種演出についてはシンプルなフェードインなどを用いて印象的でありつつも飽きのこないすっきりとしたバランスでまとめることを意識して設計しました。ローディングを除き、ユーザーが演出を「待つ」時間が発生しないようにしています。
     `,
   },
   {
@@ -71,10 +46,35 @@ export const works: {
     thumbnail: { src: "7n6cK5SdvNu9Q6hEZmWxpe", type: "mp4", width: 1600, height: 1000 },
     url: "https://www.instantanima.com/",
     period: "2ヶ月",
-    scope: ["Front-end", "Back-end", "Design"],
+    scope: ["Front-end", "Back-end (CMS)", "Design"],
     stack: ["Astro.js", "Stripe", "Cloudflare pages"],
     points: `
     トップページの演出はコレクションのテーマである「即席」から発想しました。ランダムなパターンのロゴと画像が次々に生成されるシステムを考案しました。
+    `,
+  },
+  {
+    title: "paradise",
+    thumbnail: { src: "5pCXswezkcvay7F1QzYYEc", type: "mp4", width: 1600, height: 1000 },
+    url: "https://paradisecreative.co.jp/",
+    period: "1.5ヶ月",
+    scope: ["Front-end", "Back-end (CMS)"],
+    stack: ["WebGL", "Astro.js", "contentful", "Cloudflare pages"],
+    points: `
+    メニュー画面などで表示しているグラデーションはユーザーがサイトを訪れた時間により変わります（空の色を表現しています）。
+    `,
+  },
+  {
+    title: "オリエンタルモーター 採用サイト",
+    thumbnail: { src: "3LCUKvswrJTlF3TTDnldUP", type: "mp4", width: 1600, height: 1000 },
+    url: "https://www.orientalmotor.co.jp/ja/recruit",
+    period: "1.5ヶ月",
+    scope: ["Front-end"],
+    stack: ["Astro.js"],
+    // points: `
+    // 堅実な印象のある企業様の採用サイトであるため、各種演出については印象的ではありつつも仰々しさを感じさせないバランスを意識して設計しました。ローディングを除き、ユーザーが演出を「待つ」時間が発生しないようにしています。
+    // `,
+    points: `
+    求職者が繰り返しサイトを訪れる状況を想定し、各種演出についてはシンプルなフェードインなどを用いて印象的でありつつも飽きのこないすっきりとしたバランスでまとめることを意識して設計しました。ローディングを除き、ユーザーが演出を「待つ」時間が発生しないようにしています。
     `,
   },
   {
@@ -106,10 +106,10 @@ export const works: {
     thumbnail: { src: "2kGLjx5Oceco2iqhVqT7AH", type: "mp4", width: 1600, height: 1000 },
     url: "https://sndo.jp",
     period: "1ヶ月",
-    scope: ["Front-end", "Back-end"],
+    scope: ["Front-end", "Back-end (CMS)"],
     stack: ["Astro.js", "WebGL", "Newt", "Cloudflare pages"],
     points: `
-    SNDOのクリエイティブソースである「日本的美意識」の視覚化に挑戦しました。ディレクターとデザイナーと協議を重ね、何度も修正を重ねて採用案に至りました。
+    SNDOのクリエイティブソースである「日本的美意識」の視覚化に挑戦しました。
     `,
   },
   {
@@ -117,7 +117,7 @@ export const works: {
     thumbnail: { src: "3orrPQvyG5cdRe7G7XUVMQ", type: "mp4", width: 1600, height: 1000 },
     url: "https://yokkyukungallery.com",
     period: "2ヶ月",
-    scope: ["Front-end", "Back-end"],
+    scope: ["Front-end", "Back-end (CMS)"],
     stack: ["Next.js", "WebGL", "microCMS", "Shopify Storefront API Client", "Cloudflare pages"],
     points: `
     漫画に登場するキャラクターのアートパネルが購入できるバーチャルストアです。3DCGを活用することで、実際のギャラリーで作品を購入するような体験を生み出せないかという考えから生まれました。パネルの隣にある本をクリックすると該当のキャラクターが登場する話が読めるようになっています。
@@ -194,7 +194,7 @@ export const works: {
     thumbnail: { src: "HkmKgW2E8osvOJeVLIgId", type: "mp4", width: 1600, height: 1000 },
     url: "https://yokkyukun.com",
     period: "1.5ヶ月",
-    scope: ["Front-end", "Back-end"],
+    scope: ["Front-end", "Back-end (CMS)"],
     stack: ["Next.js", "WebGL", "microCMS", "Cloudflare pages"],
     points: `
     漫画の雰囲気と融和する演出、インタラクションの設計を目標にしました。
@@ -212,7 +212,7 @@ export const works: {
     thumbnail: { src: "4LvnJkheRQmknwYHqH0pzN", type: "mp4", width: 1600, height: 998 },
     url: "https://neplusultra.jp",
     period: "1.5ヶ月",
-    scope: ["Front-end", "Back-end"],
+    scope: ["Front-end", "Back-end (CMS)"],
     stack: ["Next.js", "WebGL", "microCMS", "Cloudflare pages"],
     points: `
     npu様の長年の活動を「膨大な知の集積」と見立て、書籍の世界に誘うような演出を実装しました。演出のトンマナについては会社名の基となった"ne plus ultra"（極致）に倣い、ミニマルにまとめました。
