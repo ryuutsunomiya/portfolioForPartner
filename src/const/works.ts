@@ -13,7 +13,7 @@ export const works: {
     thumbnail: { src: "2FqTsOSS6Rvhz3l1T8unQD", type: "mp4", width: 1920, height: 1200 },
     url: "https://nocontextanimas.myshopify.com/",
     period: "1.5ヶ月",
-    scope: ["Front-end", "Design"],
+    scope: ["Front-end", "Back-end", "Design"],
     stack: ["Liquid (Shopify)"],
     points: `
     自主ファッションブランドのウェブストアです。ブランドの扱う問いを造花で表現しました。
@@ -27,7 +27,7 @@ export const works: {
     scope: ["Front-end", "Design"],
     stack: ["Astro.js", "Cloudflare pages"],
     points: `
-    インタラクティブに変形するフレームはスタジオのイデオロギーを表現しています。
+    インタラクティブに変形するフレームによってスタジオのイデオロギーを表現しています。
     `,
   },
   {
