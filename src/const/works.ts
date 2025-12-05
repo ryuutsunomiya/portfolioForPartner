@@ -9,6 +9,17 @@ export const works: {
   media?: { title: string; href: string }[];
 }[] = [
   {
+    title: "NOCONTEXTANIMAS",
+    thumbnail: { src: "2FqTsOSS6Rvhz3l1T8unQD", type: "mp4", width: 1920, height: 1200 },
+    url: "https://nocontextanimas.myshopify.com/",
+    period: "1.5ヶ月",
+    scope: ["Front-end", "Design"],
+    stack: ["Liquid (Shopify)"],
+    points: `
+    ブランドの扱う問いを造花で表現しました。
+    `,
+  },
+  {
     title: "塑tructure",
     thumbnail: { src: "3x05YSbMNmeT9C8ndALipD", type: "mp4", width: 400, height: 500 },
     url: "https://www.sotructure.com",
