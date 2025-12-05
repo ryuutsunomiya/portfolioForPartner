@@ -27,6 +27,7 @@ export const works: {
     scope: ["Front-end", "Design"],
     stack: ["Astro.js", "Cloudflare pages"],
     points: `
+    インタラクティブに変形するフレームはスタジオのイデオロギーを表現しています。
     `,
   },
   {
