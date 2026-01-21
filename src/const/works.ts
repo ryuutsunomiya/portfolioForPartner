@@ -78,6 +78,15 @@ export const works: {
       { title: "microCMS", href: "https://microcms.io/projects/detail/PT1Gspou" },
     ],
   },
+     {
+    title: "2026年ランドガレージグループ年賀サイト",
+    thumbnail: { src: "2uXmHBeTcz74JEvco7pGX1", type: "mp4", width: 1600, height: 1000 },
+    url: "https://landgarage.co.jp/happy-new-year2026/",
+    period: "一週間",
+    scope: ["Design", "Front-end"],
+    stack: ["Astro.js"],
+    points: null,
+  },
   {
     title: "Instant Anima",
     thumbnail: { src: "7n6cK5SdvNu9Q6hEZmWxpe", type: "mp4", width: 1600, height: 1000 },
