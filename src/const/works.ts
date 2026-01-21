@@ -61,6 +61,23 @@ export const works: {
     stack: ["Astro.js", "Liquid (Shopify)",],
     points: null,
   },
+   {
+    title: "ヨッキューくん ギャラリー",
+    thumbnail: { src: "3orrPQvyG5cdRe7G7XUVMQ", type: "mp4", width: 1600, height: 1000 },
+    url: "https://yokkyukungallery.com",
+    period: "2ヶ月",
+    scope: ["Front-end", "Back-end (CMS)"],
+    stack: ["Next.js", "WebGL", "microCMS", "Shopify Storefront API Client", "Cloudflare pages"],
+    points: `
+    漫画に登場するキャラクターのアートパネルが購入できるバーチャルストアです。3DCGを活用することで、実際のギャラリーで作品を購入するような体験を生み出せないかという考えから生まれました。パネルの隣にある本をクリックすると該当のキャラクターが登場する話が読めるようになっています。
+    `,
+    media: [
+      { title: "WebGL 総本山 | アートパネルの展示に加え実物を購入することも可能！ ヨッキューくん ギャラリー がおもしろい", href: "https://webgl.souhonzan.org/entry/?v=2392" },
+      { title: "BRIK GALLERY", href: "https://brik.co.jp/gallery/detail/7627" },
+      { title: "me ki ki ki", href: "https://mekikiki.com/6374/" },
+      { title: "microCMS", href: "https://microcms.io/projects/detail/PT1Gspou" },
+    ],
+  },
   {
     title: "Instant Anima",
     thumbnail: { src: "7n6cK5SdvNu9Q6hEZmWxpe", type: "mp4", width: 1600, height: 1000 },
@@ -70,17 +87,6 @@ export const works: {
     stack: ["Astro.js", "Stripe", "Cloudflare pages"],
     points: `
     トップページの演出はコレクションのテーマである「即席」から発想しました。ランダムなパターンのロゴと画像が次々に生成されるシステムを考案しました。
-    `,
-  },
-  {
-    title: "paradise",
-    thumbnail: { src: "5pCXswezkcvay7F1QzYYEc", type: "mp4", width: 1600, height: 1000 },
-    url: "https://paradisecreative.co.jp/",
-    period: "1.5ヶ月",
-    scope: ["Front-end", "Back-end (CMS)"],
-    stack: ["WebGL", "Astro.js", "contentful", "Cloudflare pages"],
-    points: `
-    メニュー画面などで表示しているグラデーションはユーザーがサイトを訪れた時間により変わります（空の色を表現しています）。
     `,
   },
   {
@@ -105,6 +111,17 @@ export const works: {
     scope: ["Front-end"],
     stack: ["Astro.js"],
     points: null,
+  },
+    {
+    title: "paradise",
+    thumbnail: { src: "5pCXswezkcvay7F1QzYYEc", type: "mp4", width: 1600, height: 1000 },
+    url: "https://paradisecreative.co.jp/",
+    period: "1.5ヶ月",
+    scope: ["Front-end", "Back-end (CMS)"],
+    stack: ["WebGL", "Astro.js", "contentful", "Cloudflare pages"],
+    points: `
+    メニュー画面などで表示しているグラデーションはユーザーがサイトを訪れた時間により変わります（空の色を表現しています）。
+    `,
   },
   {
     title: "RYU UTSUNOMIYA WORKS 2015-2019",
@@ -131,23 +148,6 @@ export const works: {
     points: `
     SNDOのクリエイティブソースである「日本的美意識」の視覚化に挑戦しました。
     `,
-  },
-  {
-    title: "ヨッキューくん ギャラリー",
-    thumbnail: { src: "3orrPQvyG5cdRe7G7XUVMQ", type: "mp4", width: 1600, height: 1000 },
-    url: "https://yokkyukungallery.com",
-    period: "2ヶ月",
-    scope: ["Front-end", "Back-end (CMS)"],
-    stack: ["Next.js", "WebGL", "microCMS", "Shopify Storefront API Client", "Cloudflare pages"],
-    points: `
-    漫画に登場するキャラクターのアートパネルが購入できるバーチャルストアです。3DCGを活用することで、実際のギャラリーで作品を購入するような体験を生み出せないかという考えから生まれました。パネルの隣にある本をクリックすると該当のキャラクターが登場する話が読めるようになっています。
-    `,
-    media: [
-      { title: "WebGL 総本山 | アートパネルの展示に加え実物を購入することも可能！ ヨッキューくん ギャラリー がおもしろい", href: "https://webgl.souhonzan.org/entry/?v=2392" },
-      { title: "BRIK GALLERY", href: "https://brik.co.jp/gallery/detail/7627" },
-      { title: "me ki ki ki", href: "https://mekikiki.com/6374/" },
-      { title: "microCMS", href: "https://microcms.io/projects/detail/PT1Gspou" },
-    ],
   },
   {
     title: "小笠原海洋センターさんと考えるウミガメの未来 │ フェリシモ",
