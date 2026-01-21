@@ -53,6 +53,15 @@ export const works: {
     `,
   },
   {
+    title: "uki by non Editions",
+    thumbnail: { src: "yFKdH7cEBauheCzsNWEzn", type: "mp4", width: 1600, height: 1000 },
+    url: "https://ukibynoneditions.com/",
+    period: "1.5ヶ月",
+    scope: ["Front-end", "Back-end"],
+    stack: ["Astro.js", "Liquid (Shopify)",],
+    points: null,
+  },
+  {
     title: "Instant Anima",
     thumbnail: { src: "7n6cK5SdvNu9Q6hEZmWxpe", type: "mp4", width: 1600, height: 1000 },
     url: "https://www.instantanima.com/",
