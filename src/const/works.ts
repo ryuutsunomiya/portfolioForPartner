@@ -54,7 +54,7 @@ export const works: {
   },
   {
     title: "uki by non Editions",
-    thumbnail: { src: "yFKdH7cEBauheCzsNWEzn", type: "mp4", width: 1600, height: 1000 },
+    thumbnail: { src: "4WYOwH3eKJs0zk3QKtACtr", type: "mp4", width: 1600, height: 1000 },
     url: "https://ukibynoneditions.com/",
     period: "1.5ヶ月",
     scope: ["Front-end", "Back-end"],
