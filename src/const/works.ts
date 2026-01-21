@@ -112,43 +112,6 @@ export const works: {
     stack: ["Astro.js"],
     points: null,
   },
-    {
-    title: "paradise",
-    thumbnail: { src: "5pCXswezkcvay7F1QzYYEc", type: "mp4", width: 1600, height: 1000 },
-    url: "https://paradisecreative.co.jp/",
-    period: "1.5ヶ月",
-    scope: ["Front-end", "Back-end (CMS)"],
-    stack: ["WebGL", "Astro.js", "contentful", "Cloudflare pages"],
-    points: `
-    メニュー画面などで表示しているグラデーションはユーザーがサイトを訪れた時間により変わります（空の色を表現しています）。
-    `,
-  },
-  {
-    title: "RYU UTSUNOMIYA WORKS 2015-2019",
-    thumbnail: { src: "40xHbl27OUXwcsegQ0GfuX", type: "mp4", width: 1600, height: 1000 },
-    url: "https://www.ryuutsunomiya.com",
-    period: "1ヶ月",
-    scope: ["Front-end", "Design"],
-    stack: ["WebGL", "Astro.js", "Cloudflare pages"],
-    points: `
-    木のパネルの演出は、作家らしさの視覚化と同時に、WebGLを用いる中でいかにアクセシビリティを保つか、という問いから誕生しました。vertices（3D空間上に表示する面の頂点）とmeterial（その面の色）という、Three.jsのレンダリング時間に関わる構成要素それぞれの描画において、可能な限り軽微な処理で収まりかつデザインのテーマと合致するインタラクションとなる組み合わせを模索しました。採用案については、直方体を生成するための僅か8つのverticesと、テクスチャーの読み込みのみを行うmaterialの連続で構成されています。
-    `,
-    media: [
-      { title: "BRIK GALLERY", href: "https://brik.co.jp/gallery/detail/10600" },
-      { title: "me ki ki ki", href: "https://mekikiki.com/2121/" },
-    ],
-  },
-  {
-    title: "SNDO",
-    thumbnail: { src: "2kGLjx5Oceco2iqhVqT7AH", type: "mp4", width: 1600, height: 1000 },
-    url: "https://sndo.jp",
-    period: "1ヶ月",
-    scope: ["Front-end", "Back-end (CMS)"],
-    stack: ["Astro.js", "WebGL", "Newt", "Cloudflare pages"],
-    points: `
-    SNDOのクリエイティブソースである「日本的美意識」の視覚化に挑戦しました。
-    `,
-  },
   {
     title: "小笠原海洋センターさんと考えるウミガメの未来 │ フェリシモ",
     thumbnail: { src: "4KwlYqIkRMyyhOTrkguiyb", type: "mp4", width: 1586, height: 1000 },
@@ -244,6 +207,43 @@ export const works: {
       { title: "Good Web Design", href: "https://good-web-design.com/webdesign/neplusultra" },
       { title: "Brilliant Design Collect", href: "https://brilliantdesign.work/archives/9430" },
     ],
+  },
+      {
+    title: "paradise",
+    thumbnail: { src: "5pCXswezkcvay7F1QzYYEc", type: "mp4", width: 1600, height: 1000 },
+    url: "https://paradisecreative.co.jp/",
+    period: "1.5ヶ月",
+    scope: ["Front-end", "Back-end (CMS)"],
+    stack: ["WebGL", "Astro.js", "contentful", "Cloudflare pages"],
+    points: `
+    メニュー画面などで表示しているグラデーションはユーザーがサイトを訪れた時間により変わります（空の色を表現しています）。
+    `,
+  },
+  {
+    title: "RYU UTSUNOMIYA WORKS 2015-2019",
+    thumbnail: { src: "40xHbl27OUXwcsegQ0GfuX", type: "mp4", width: 1600, height: 1000 },
+    url: "https://www.ryuutsunomiya.com",
+    period: "1ヶ月",
+    scope: ["Front-end", "Design"],
+    stack: ["WebGL", "Astro.js", "Cloudflare pages"],
+    points: `
+    木のパネルの演出は、作家らしさの視覚化と同時に、WebGLを用いる中でいかにアクセシビリティを保つか、という問いから誕生しました。vertices（3D空間上に表示する面の頂点）とmeterial（その面の色）という、Three.jsのレンダリング時間に関わる構成要素それぞれの描画において、可能な限り軽微な処理で収まりかつデザインのテーマと合致するインタラクションとなる組み合わせを模索しました。採用案については、直方体を生成するための僅か8つのverticesと、テクスチャーの読み込みのみを行うmaterialの連続で構成されています。
+    `,
+    media: [
+      { title: "BRIK GALLERY", href: "https://brik.co.jp/gallery/detail/10600" },
+      { title: "me ki ki ki", href: "https://mekikiki.com/2121/" },
+    ],
+  },
+  {
+    title: "SNDO",
+    thumbnail: { src: "2kGLjx5Oceco2iqhVqT7AH", type: "mp4", width: 1600, height: 1000 },
+    url: "https://sndo.jp",
+    period: "1ヶ月",
+    scope: ["Front-end", "Back-end (CMS)"],
+    stack: ["Astro.js", "WebGL", "Newt", "Cloudflare pages"],
+    points: `
+    SNDOのクリエイティブソースである「日本的美意識」の視覚化に挑戦しました。
+    `,
   },
   {
     title: "PSG JAPAN TOUR 2023",
